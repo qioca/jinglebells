@@ -5,28 +5,27 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Jingle.Bells/</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="http://jingle.bells.hns.to/">🔔 Jingle Bells 🔔</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          jingle bells,{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>jingle all the way!</h3>
+            <p>Here we.. on an HNS driven sleigh</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
+          <!--<a href="https://nextjs.org/learn" className={styles.card}>
+            <h3>blockchain</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -34,8 +33,8 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>decentralized</h3>
+            <p></p>
           </a>
 
           <a
@@ -44,7 +43,7 @@ export default function Home() {
           >
             <h3>Deploy &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              something else here
             </p>
           </a>
         </div>
@@ -57,9 +56,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          finally something here.
         </a>
       </footer>
-    </div>
+    </div>-->
   )
 }
