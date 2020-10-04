@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
             <h3>jingle all the way!</h3>
-            <p>Here we.. on an HNS driven sleigh</p>
+            <p>Here we.. on an HNS driven sleigh!</p>
           </a>
     
         </div>
