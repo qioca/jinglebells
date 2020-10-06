@@ -10,27 +10,20 @@
 <link rel="stylesheet" href="assets/css/main.css" />
 <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 <style type="text/css" media="screen">
-.outline {
-    color: white;
-    text-shadow:
+video {
+height: 100%;
+left: 0;
+object-fit: cover;
+position: absolute;
+top: 0;
+width: 100%;
+}
+.jingle {
+text-shadow:
        -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
-         1px 1px 0 #000
-}
-
-@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
-    .outline {
-        color: transparent;
-        -webkit-text-stroke: 2px black;
-        text-stroke: 2px black;
-        text-shadow: none;
-    }
-}
-
-/* not for demo */
-* {
-    box-sizing: border-box;
+         1px 1px 0 #000;
 }
 </style>
 </head>
@@ -57,20 +50,20 @@
 			</section>-->
 			<section class="main style1 dark fullscreen">
             <video autoplay controls id="intro">
-  			<source src="images/JingleBells.mp4" type="video/mp4">
+  			<source src="images/jingle-bells.mp4" type="video/mp4">
             Your browser does not support the video tag.
 			</video>
 			<!--<audio controls autoplay loop id="audio">
   			<source src="" type="audio/mpeg">
 			Your browser does not support the audio element.
 			</audio>-->
-            <p id="audio" style="background-color:green;padding:5px;border-radius:5px;">powered by handshake on the blockchain. ❤️ to <a href="https://namebase.io" style="text-decoration:none">Namebase.io</a> & Johnny Wu</p>
-				<!--<div class="content">
+            <p id="audio" style="background-color:green;padding:5px;border-radius:5px;border:red dashed;">powered by handshake on the blockchain. ❤️ to <a href="https://namebase.io" style="text-decoration:none;">Namebase.io</a> & Johnny Wu</p>
+				<div class="content">
 					<header>
-						<h2 class="outline">🔔 Jingle Bells 🔔</h2>
-					</header>
+						<h2 class="jingle">🔔 Jingle.Bells/ 🔔</h2>
+				  </header>
 					<p>&nbsp;</p>
-				</div>-->
+				</div>
 			</section>
 
 
